@@ -1,120 +1,143 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
+import BaseLayout from "../layouts/BaseLayout.astro";
 
-import ContactCTA from '../components/ContactCTA.astro';
-import Hero from '../components/Hero.astro';
+import ContactCTA from "../components/ContactCTA.astro";
+import Hero from "../components/Hero.astro";
 ---
 
-<BaseLayout title="About | Jeanine White" description="About Jeanine White Lorem Ipsum">
-	<div class="stack gap-20">
-		<main class="wrapper about">
-			<Hero
-				title="About"
-				tagline="Thanks for stopping by. Read below to learn more about myself and my background."
-			>
-				<img
-					width="1553"
-					height="873"
-					src="/assets/at-work.jpg"
-					alt="Jeanine White at work with a colleague"
-				/>
-			</Hero>
+<BaseLayout title="A propos" description="A propos de Phiane Dominique">
+  <div class="stack gap-20">
+    <main class="wrapper about">
+      <Hero
+        title="A propos"
+        tagline="Merci d'être passé. Lisez ci-dessous pour en savoir plus sur moi et sur mon parcours."
+      >
+        <img
+          src="/assets/dev.svg"
+          alt="Images avec les languages HTML CSS Javascript PHP"
+        />
+      </Hero>
 
-			<section>
-				<h2 class="section-title">Background</h2>
-				<div class="content">
-					<p>
-						Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy.
-						Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum
-						id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla
-						pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
-					</p>
-					<p>
-						Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis
-						natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl
-						condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel
-						quam elementum pulvinar etiam non.
-					</p>
-					<p>
-						Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet
-						eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra.
-						Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl
-						pretium fusce.
-					</p>
-				</div>
-			</section>
-			<section>
-				<h2 class="section-title">Education</h2>
-				<div class="content">
-					<p>Corporis voluptates tenetur laudantium.</p>
-				</div>
-			</section>
-			<section>
-				<h2 class="section-title">Skills</h2>
-				<div class="content">
-					<p>officia unde omnis</p>
-				</div>
-			</section>
-		</main>
+      <section>
+        <h2 class="section-title">Parcours</h2>
+        <div class="content">
+          <p>
+            Après dix ans dans la restauration, dont cinq années passées à gérer
+            mon propre établissement, j'ai décidé de revenir à mes premiers
+            amours dans le domaine de l'informatique. Avec un intérêt marqué
+            pour les nouvelles technologies étroitement liées aux évolutions de
+            l'IT, je me suis orienté vers le métier de développeur.
+			Organisé, passionné et capable de m'adapter,
+            j'accomplis mes missions avec un souci constant de qualité.
+          </p>
+		  <br>
+          <p>
+			Ma reconversion a débuté avec une formation de développeur web chez Openclassroom. J'ai acquis un certain nombre de compétences :
+          </p>
+          <ul>
+            <li>
+              - Construction de sites web responsive et dynamiques, s'adaptant à
+              tous les types d'écrans grâce à l'intégration des éléments des
+              maquettes graphiques (développement front-end avec HTML, CSS,
+              JavaScript et React).
+            </li>
+            <li>
+              - Création d'API et de bases de données pour développer des sites
+              complets et dynamiques, assurant le bon fonctionnement côté
+              serveur (développement back-end avec NodeJS, Express et MongoDB).
+            </li>
+            <li>
+              - Optimisation des performances et maintenance de sites web déjà
+              existants pour garantir leur fonctionnement optimal et une bonne
+              visibilité sur les moteurs de recherche (SEO).
+            </li>
+            <li>
+              - Gestion de projets web de A à Z : de la planification du projet à
+              la présentation de la solution au client, en passant par la
+              rédaction des spécifications techniques.
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h2 class="section-title">FORMATIONS</h2>
+        <div class="content">
+			<p>Dyma | Symfony 7 / PHP / SQL / Angular V15</p>
+			<p>Plateformes d’apprentissage : Grafikart / CodeWars / FreeCodeCamp / Pierre-Giraud</p>
+          	<p>OpenClassrooms | Développeur Web - Diplôme RNCP de Niveau 5.</p>
+        </div>
+      </section>
+      <section>
+        <h2 class="section-title">Skills</h2>
+        <div class="content">
+          <p><i class="fa-brands fa-xl fa-symfony"></i><i class="fa-brands fa-xl fa-php"></i><i class="fa-brands fa-xl fa-html5"></i><i class="fa-brands fa-xl fa-css3-alt"></i><i class="fa-brands  fa-xl fa-js"></i><i class="fa-brands  fa-xl fa-react"></i><i class="fa-solid fa-xl fa-database"></i></p>
+        </div>
+      </section>
+    </main>
 
-		<ContactCTA />
-	</div>
+    <ContactCTA />
+  </div>
 </BaseLayout>
 
 <style>
-	.about {
-		display: flex;
-		flex-direction: column;
-		gap: 3.5rem;
-	}
+  .about {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+  }
+  .fa-xl{
+	padding: 0 10px;
+  }
+  img {
+    margin-top: 1.5rem;
+    border-radius: 1.5rem;
+    /* box-shadow: var(--shadow-md); */
+  }
+  li{
+	list-style:none
+  }
 
-	img {
-		margin-top: 1.5rem;
-		border-radius: 1.5rem;
-		box-shadow: var(--shadow-md);
-	}
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: var(--gray-200);
+  }
 
-	section {
-		display: flex;
-		flex-direction: column;
-		gap: 0.5rem;
-		color: var(--gray-200);
-	}
+  .section-title {
+    grid-column-start: 1;
+    font-size: var(--text-xl);
+    color: var(--gray-0);
+  }
 
-	.section-title {
-		grid-column-start: 1;
-		font-size: var(--text-xl);
-		color: var(--gray-0);
-	}
+  .content {
+    grid-column: 2 / 4;
+  }
 
-	.content {
-		grid-column: 2 / 4;
-	}
+  .content :global(a) {
+    text-decoration: 1px solid underline transparent;
+    text-underline-offset: 0.25em;
+    transition: text-decoration-color var(--theme-transition);
+  }
 
-	.content :global(a) {
-		text-decoration: 1px solid underline transparent;
-		text-underline-offset: 0.25em;
-		transition: text-decoration-color var(--theme-transition);
-	}
+  .content :global(a:hover),
+  .content :global(a:focus) {
+    text-decoration-color: currentColor;
+  }
 
-	.content :global(a:hover),
-	.content :global(a:focus) {
-		text-decoration-color: currentColor;
-	}
+  @media (min-width: 50em) {
+    .about {
+      display: grid;
+      grid-template-columns: 1fr 60% 1fr;
+    }
 
-	@media (min-width: 50em) {
-		.about {
-			display: grid;
-			grid-template-columns: 1fr 60% 1fr;
-		}
+    .about > :global(:first-child) {
+      grid-column-start: 2;
+    }
 
-		.about > :global(:first-child) {
-			grid-column-start: 2;
-		}
-
-		section {
-			display: contents;
-			font-size: var(--text-lg);
-		}
-	}
+    section {
+      display: contents;
+      font-size: var(--text-lg);
+    }
+  }
 </style>
