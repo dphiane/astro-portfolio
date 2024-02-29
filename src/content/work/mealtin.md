@@ -12,7 +12,7 @@ tags:
   - Asset Mapper
 ---
 
-#### Général :
+#### Fonctionnalités implémentées : :
  -  Mise en place de l'inscription avec un authenticator personnalisé
  -  Login et logout avec AuthenticationUtils
  -  Réintialisation de mot de passe
