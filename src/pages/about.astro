@@ -26,13 +26,14 @@ import Hero from "../components/Hero.astro";
             mon propre établissement, j'ai décidé de revenir à mes premiers
             amours dans le domaine de l'informatique. Avec un intérêt marqué
             pour les nouvelles technologies étroitement liées aux évolutions de
-            l'IT, je me suis orienté vers le métier de développeur.
-			Organisé, passionné et capable de m'adapter,
-            j'accomplis mes missions avec un souci constant de qualité.
+            l'IT, je me suis orienté vers le métier de développeur. Organisé,
+            passionné et capable de m'adapter, j'accomplis mes missions avec un
+            souci constant de qualité.
           </p>
-		  <br>
+          <br />
           <p>
-			Ma reconversion a débuté avec une formation de développeur web chez Openclassroom. J'ai acquis un certain nombre de compétences :
+            Ma reconversion a débuté avec une formation de développeur web chez
+            Openclassroom. J'ai acquis un certain nombre de compétences :
           </p>
           <ul>
             <li>
@@ -52,8 +53,8 @@ import Hero from "../components/Hero.astro";
               visibilité sur les moteurs de recherche (SEO).
             </li>
             <li>
-              - Gestion de projets web de A à Z : de la planification du projet à
-              la présentation de la solution au client, en passant par la
+              - Gestion de projets web de A à Z : de la planification du projet
+              à la présentation de la solution au client, en passant par la
               rédaction des spécifications techniques.
             </li>
           </ul>
@@ -62,15 +63,26 @@ import Hero from "../components/Hero.astro";
       <section>
         <h2 class="section-title">FORMATIONS</h2>
         <div class="content">
-			<p>Dyma | Symfony 7 / PHP / SQL / Angular V15</p>
-			<p>Plateformes d’apprentissage : Grafikart / CodeWars / FreeCodeCamp / Pierre-Giraud</p>
-          	<p>OpenClassrooms | Développeur Web - Diplôme RNCP de Niveau 5.</p>
+          <p><a href="https://dyma.fr/">Dyma</a> | Symfony 7 - PHP - SQL - Angular V15</p>
+          <p><a href="https://openclassrooms.com/fr/">OpenClassrooms</a> | Développeur Web - Diplôme RNCP de Niveau 5.</p>
+          <p>
+            Autres ressouces : <a href="https://grafikart.fr/">Grafikart</a> - <a href="https://www.codewars.com/users/dphiane">Codewars</a> - <a href="https://www.freecodecamp.org/">FreeCodeCamp</a> -
+            <a href="https://www.pierre-giraud.com/">Pierre Giraud</a>
+          </p>
         </div>
       </section>
       <section>
         <h2 class="section-title">Skills</h2>
         <div class="content">
-          <p><i class="fa-brands fa-xl fa-symfony"></i><i class="fa-brands fa-xl fa-php"></i><i class="fa-brands fa-xl fa-html5"></i><i class="fa-brands fa-xl fa-css3-alt"></i><i class="fa-brands  fa-xl fa-js"></i><i class="fa-brands  fa-xl fa-react"></i><i class="fa-solid fa-xl fa-database"></i></p>
+          <p>
+            <i class="fa-brands fa-xl fa-symfony"></i><i
+              class="fa-brands fa-xl fa-php"></i><i
+              class="fa-brands fa-xl fa-html5"></i><i
+              class="fa-brands fa-xl fa-css3-alt"></i><i
+              class="fa-brands fa-xl fa-js"></i><i
+              class="fa-brands fa-xl fa-react"></i><i
+              class="fa-solid fa-xl fa-database"></i>
+          </p>
         </div>
       </section>
     </main>
@@ -80,21 +92,29 @@ import Hero from "../components/Hero.astro";
 </BaseLayout>
 
 <style>
+.content p i{
+  color:white
+}
+
   .about {
     display: flex;
     flex-direction: column;
     gap: 3.5rem;
   }
-  .fa-xl{
-	padding: 0 10px;
+  .fa-xl {
+    padding: 0 10px;
   }
   img {
     margin-top: 1.5rem;
     border-radius: 1.5rem;
     /* box-shadow: var(--shadow-md); */
   }
-  li{
-	list-style:none
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    padding: 10px 0px;
   }
 
   section {
