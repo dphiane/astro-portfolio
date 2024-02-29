@@ -1,5 +1,5 @@
 ---
-title: Blog de cuisine
+title: PHP Blog de cuisine
 publishDate: 2023-12-01 00:00:00
 img: /assets/blog_cuisine.png
 img_alt: Le blog culinaire d'un gourmand

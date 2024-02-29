@@ -1,5 +1,5 @@
 ---
-title: Wonder
+title: Symfony Wonder
 publishDate: 2024-01-04 00:00:00
 img: /assets/wonder.png
 img_alt: Wonder est copie du site Quora

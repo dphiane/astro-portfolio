@@ -1,5 +1,5 @@
 ---
-title: Mealtin'Potes
+title: Symfony Mealtin'Potes
 publishDate: 2024-02-25 00:00:00
 img: /assets/mealtin.png 
 img_alt: Site de réservation Mealtin'Potes

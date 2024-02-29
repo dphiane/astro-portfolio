@@ -1,5 +1,5 @@
 ---
-title: Kasa
+title: React - Kasa
 publishDate: 2022-10-25 00:00:00
 img: /assets/kasa.png 
 img_alt: Kasa plateforme de location immobilière

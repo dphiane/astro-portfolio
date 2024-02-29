@@ -1,5 +1,5 @@
 ---
-title: Piiquante
+title: Node Js Piiquante 
 publishDate: 2022-09-08 00:00:00
 img: /assets/hot_takes.png
 img_alt: Photos de plusieurs marques de sauce piquante
