@@ -12,6 +12,9 @@ tags:
   - Asset Mapper
 ---
 
+Suite à mon expérience en tant que gérant de mon établissement, j'ai souhaité répondre à mon problème de gestion des réservations et des appels téléphoniques qui monopolisaient du personnel.
+Un système d'authentification a été mis en place pour lutter contre les "no-shows", qui sont les réservations non honorées.
+
 #### Fonctionnalités implémentées : :
  -  Mise en place de l'inscription avec un authenticator personnalisé
  -  Login et logout avec AuthenticationUtils
