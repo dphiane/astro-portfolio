@@ -1,8 +1,8 @@
 ---
-title: Symfony Mealtin'Potes
+title: Symfony Mealtin
 publishDate: 2024-02-25 00:00:00
 img: /assets/mealtin.png 
-img_alt: Site de réservation Mealtin'Potes
+img_alt: Site de réservation Mealtin
 description: |
   Web application gestion des réservation 
 url: https://github.com/dphiane/symfony_mealtin
@@ -15,7 +15,7 @@ tags:
 Suite à mon expérience en tant que gérant de mon établissement, j'ai souhaité répondre à mon problème de gestion des réservations et des appels téléphoniques qui monopolisaient du personnel.
 Un système d'authentification a été mis en place pour lutter contre les "no-shows", qui sont les réservations non honorées.
 
-#### Fonctionnalités implémentées : :
+#### Fonctionnalités implémentées
  -  Mise en place de l'inscription avec un authenticator personnalisé
  -  Login et logout avec AuthenticationUtils
  -  Réintialisation de mot de passe
